@@ -3,7 +3,7 @@ walletool ~ a tool for reading wallet.dat files
 
 A utility for extracting cryptocurrency wallet data from wallet.dat files.
 
-Installation
+Installation 
 ------------
 
 * Install Python 3.x.
