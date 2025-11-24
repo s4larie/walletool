@@ -1,5 +1,5 @@
 import argparse
-import json 
+import json
 import requests
 import sys
 import time
