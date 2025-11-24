@@ -5,7 +5,7 @@ import sys
 import time
 from walletool import init_env
 
-def main():
+def main(): 
     ap = argparse.ArgumentParser()
     ap.add_argument('file', help='address file; one address per line')
     ap.add_argument('--ignore-empty', action='store_true')
