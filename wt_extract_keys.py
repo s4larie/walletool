@@ -12,7 +12,7 @@ def main():
     if args.version.startswith('0x'):
         version = int(args.version[2:], 16)
     elif args.version.isdigit():
-        version = int(args.version)
+        version = int(args.version) 
     else:
         if args.version not in addrtypes:
             raise ValueError('invalid version (see --help)')
