@@ -2,7 +2,7 @@ from walletool import init_env
 from walletool.wallet_files import read_wallet_dat
 from walletool.wallet_items import parse_wallet_dict, KeyWalletItem
 from walletool.consts import addrtypes
-import argparse
+import argparse 
 
 def main():
     ap = argparse.ArgumentParser()
