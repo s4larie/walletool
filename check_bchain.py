@@ -1,11 +1,12 @@
+from walletool import init_env
 import json
 import re
 import requests
 import argparse
-from walletool import init_env
+
 
 var_re = re.compile('var (.+?) = (.+?);')
- 
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('file', help='address file; one address per line')

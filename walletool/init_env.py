@@ -3,7 +3,7 @@ import sys
 import hashlib
 import binascii
 import json
-import tempfile 
+import tempfile
 
 _env_state = {'ready': False}
 _config_cache = {}
