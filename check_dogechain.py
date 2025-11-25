@@ -2,7 +2,7 @@ from walletool import init_env
 import argparse
 import json
 import requests
-import sys
+import sys 
 import time
 
 def main():
