@@ -1,6 +1,6 @@
 # -- encoding: UTF-8 --
 import hashlib
-
+ 
 b58_chars = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
 b58_base = len(b58_chars)
 
